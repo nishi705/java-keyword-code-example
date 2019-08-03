@@ -26,10 +26,15 @@ public class Car implements Vehicle {
     public void stop() {
         System.out.println("car stops");
     }
+    public void display()
+    {
+        System.out.println("this is car class");
+    }
 
     public static void main(String[] args) {
         Ciaz cz=new Ciaz();
         cz.display();
+        cz.display("s");
         Audi ad=new Audi();
        ad.display();
         Lamborghini lamb=new Lamborghini();
