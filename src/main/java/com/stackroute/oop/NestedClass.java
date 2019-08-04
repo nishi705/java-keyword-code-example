@@ -29,7 +29,6 @@ public class NestedClass {
     public static void main(String[] args) {
         OterClass.StaticOuterClass object = new OterClass.StaticOuterClass();
         object.display();
-        OuterClass outerObject=new OuterClass();
-        OuterClass.InnerClass innerClass=outerObject.newInnerClass();
+
     }
 }
